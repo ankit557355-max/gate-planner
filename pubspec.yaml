@@ -1,0 +1,53 @@
+name: gate_planner
+description: GATE AIR 100 Daily Planner - Futuristic Study Tracker
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  
+  # Notifications
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.2
+  
+  # Text to Speech (Hindi voice alarm)
+  flutter_tts: ^4.0.2
+  
+  # Charts & Animations
+  fl_chart: ^0.68.0
+  percent_indicator: ^4.2.3
+  
+  # UI
+  google_fonts: ^6.2.1
+  animated_text_kit: ^4.2.2
+  lottie: ^3.1.0
+  flutter_animate: ^4.5.0
+  
+  # Date & Time
+  intl: ^0.19.0
+  
+  # Icons
+  cupertino_icons: ^1.0.6
+  font_awesome_flutter: ^10.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
