@@ -1,5 +1,0 @@
-package com.example.gate_planner
-
-import io.flutter.embedding.android.FlutterActivity
-
-class MainActivity: FlutterActivity()
